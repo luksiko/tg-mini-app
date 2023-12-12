@@ -1,7 +1,7 @@
 import { Telegraf, Markup } from "telegraf";
 import { message } from "telegraf/filters";
 
-const token = TELEGRAM_BOT_TOKEN
+const token = process.env.TELEGRAM_BOT_TOKEN
 const webAppUrl = 'https://ang-tg-webapp.web.app';
 const bot = new Telegraf(token);
 
