@@ -9,11 +9,9 @@ bot.command('start', (ctx) => {
     ctx.reply(
         'Добро пожаловать, нажмите кнопку ниже, чтобы запустить приложение',
         Markup.keyboard([
-            Markup.button.webApp(
-                'Send feedback',
-                webAppUrl + '/feedback',
-            ),
-        ]),
+            Markup.button.webApp('Send feedback',webAppUrl + '/feedback',
+            )]
+        ),
     );
 });
 
