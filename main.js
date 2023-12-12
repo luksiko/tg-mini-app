@@ -1,6 +1,5 @@
 import { Telegraf, Markup } from "telegraf";
 import { message } from "telegraf/filters";
-import { TELEGRAM_BOT_TOKEN } from "./cred.js";
 
 const token = TELEGRAM_BOT_TOKEN
 const webAppUrl = 'https://ang-tg-webapp.web.app';
